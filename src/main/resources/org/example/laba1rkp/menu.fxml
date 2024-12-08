@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="458.0" prefWidth="712.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.laba1rkp.ControllerMenu">
+
+    <children>
+        <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="464.0" prefWidth="712.0" style="-fx-background-color: #6495ED;" VBox.vgrow="ALWAYS">
+            <children>
+                <Label alignment="CENTER" layoutX="187.0" layoutY="35.0" prefHeight="134.0" prefWidth="357.0" text="Vacuole" textAlignment="CENTER" textFill="AQUAMARINE" textOverrun="CLIP">
+                    <font>
+                        <Font name="Maiandra GD" size="88.0" />
+                    </font>
+                </Label>
+                <VBox alignment="TOP_CENTER" layoutX="250.0" layoutY="180.0" prefHeight="198.0" prefWidth="230.0" spacing="10.0">
+                    <children>
+                        <Button alignment="CENTER" mnemonicParsing="false" prefHeight="33.0" prefWidth="190.0" style="-fx-background-color: #87CEFA;" text="Начать планирование" textAlignment="CENTER"/>
+                        <Button alignment="CENTER" mnemonicParsing="false" prefHeight="33.0" prefWidth="190.0" style="-fx-background-color: #87CEFA;" text="Настройки "/>
+                        <Button alignment="CENTER" mnemonicParsing="false" prefHeight="33.0" prefWidth="190.0" style="-fx-background-color: #87CEFA;" text="Обратная Связь"/>
+                        <Button  alignment="CENTER" mnemonicParsing="false" onAction="#ExitButtonClicka" prefHeight="33.0" prefWidth="110.0" style="-fx-background-color: #87CEFA;" text="Выход">
+                            <font>
+                                <Font name="System" size="14.0" />
+                            </font>
+                        </Button>
+                    </children>
+                    <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                    </padding>
+                </VBox>
+            </children>
+        </AnchorPane>
+    </children>
+</VBox>
